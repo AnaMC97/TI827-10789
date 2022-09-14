@@ -40,7 +40,14 @@ public class JavaApplication1 {
     }   
     
     private static void convertPesos() {
-        
+        float peso;
+        System.out.println("Insira um peso em kg");
+        peso = ler.nextFloat();
+        System.out.println(peso+" (kg) equivale a:\n"+
+                +(peso*10)+" (dg)\n"+
+                +(peso*100)+" (cg)\n"+
+                +(peso*1000)+" (g)\n"+
+                +(peso/1000)+ " (ton)\n");
     }
         
     private static void convertMoedas() {
